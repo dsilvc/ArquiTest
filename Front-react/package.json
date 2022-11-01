@@ -37,7 +37,7 @@
     "eject": "react-scripts eject",
     "deploy-s3": "aws s3 sync build/ s3://www.emergenciesg25.tk --delete",
     "invalidate-cloudfront": "aws cloudfront create-invalidation --distribution-id EZ4I10WH2RFSW --paths '/*'",
-    "deploy": "npm build && npm run deploy-s3 && npm run invalidate-cloudfront",
+    "deploy": "npm install && npm build && npm run deploy-s3 && npm run invalidate-cloudfront",
     "lint": "./node_modules/.bin/eslint"
   },
   "browserslist": {
