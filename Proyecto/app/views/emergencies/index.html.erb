@@ -1,0 +1,35 @@
+<div class="container text-center">
+    <div class="col align-self-center">
+        <h1>Emergencias</h1>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row align-items-start">
+        <div class="col align-self-center">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                    <th scope="col">Tipo</th>
+                    <th scope="col">Lat</th>
+                    <th scope="col">Lon</th>
+                    <th scope="col">Location</th>
+                    <th scope="col">Mensaje</th>
+                    <th scope="col">Nivel</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <% @emergs.each do |emerg| %>
+                        <tr>
+                            <td><%= emerg.tipo %></td>
+                            <td><%= emerg.lat %></td>
+                            <td><%= emerg.lon %></td>
+                            <td><%= emerg.location %></td>
+                            <td><%= emerg.message %></td>
+                            <td><%= emerg.level %></td>
+                        </tr>
+                    <% end %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

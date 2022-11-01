@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "requireConfigFile": 0
+  }
+}

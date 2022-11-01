@@ -1,0 +1,9 @@
+.pagination {
+  align-self: center;
+  display: flex;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: column;
+}

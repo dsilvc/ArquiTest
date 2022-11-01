@@ -1,0 +1,26 @@
+.navbar-root{
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  background-color: #8fbafc;
+  border-bottom: 2px solid #0D6EFD;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75px;
+}
+
+.link {
+  color: #fff;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  cursor: pointer;
+}
