@@ -2,7 +2,7 @@ name: s3-deploy
 
 on:
   push:
-    branches: [ "mains" ]
+    branches: [ "main" ]
   pull_request:
     branches: [ "mains" ]
     
