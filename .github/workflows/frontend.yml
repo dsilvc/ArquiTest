@@ -2,9 +2,9 @@ name: s3-deploy
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "mains" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "mains" ]
     
 jobs: 
   build:
