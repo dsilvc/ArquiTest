@@ -12,6 +12,12 @@
     "plugin:@typescript-eslint/recommended",
     "prettier"
   ],
+  "prettier/prettier": [
+    "error",
+    {
+      "endOfLine": "auto"
+    }
+  ],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "requireConfigFile": 0

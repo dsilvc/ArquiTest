@@ -15,7 +15,7 @@ export default function EmergenciesList({ emergencies }: Props) {
         <thead>
           <tr>
             <th>ID</th>
-            <th>Tipo</th>
+            <th>type</th>
             <th>Nivel</th>
             <th>Ubicación</th>
             <th>Mensaje</th>

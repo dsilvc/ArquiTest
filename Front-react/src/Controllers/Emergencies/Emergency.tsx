@@ -10,7 +10,7 @@ import "leaflet/dist/leaflet.css";
 export default function SignUp() {
   const params = useParams();
   const emergencyId = params?.emergencyId ?? "";
-  const emergency = useEmergencyData({
+  const { emergency } = useEmergencyData({
     emergencyId: parseInt(emergencyId),
   });
   const { user } = useAuth();
@@ -21,15 +21,14 @@ export default function SignUp() {
           Debes iniciar sesión para ver las emergencias
         </div>
       )}
-      {user && (
-        <div className="emergency">
-          <EmergencyDisplay emergency={emergency}></EmergencyDisplay>
-          <Link to={EMERGENCIES_LINK}>{` < Atrás`}</Link>
-          <div id="map">
-            <MapLeaflet emergency={emergency}></MapLeaflet>
-          </div>
+      <div className="emergency">
+        <EmergencyDisplay emergency={emergency}></EmergencyDisplay>
+        <br />
+        <Link to={EMERGENCIES_LINK}>{` < Atrás`}</Link>
+        <div id="map">
+          <MapLeaflet emergency={emergency}></MapLeaflet>
         </div>
-      )}
+      </div>
     </>
   );
 }

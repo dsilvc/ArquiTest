@@ -11,7 +11,7 @@ export function EmergencyRow({ emergency }: Props) {
     <>
       <tr>
         <td>{emergency.id}</td>
-        <td>{emergency.tipo}</td>
+        <td>{emergency.type}</td>
         <td>{emergency.level}</td>
         <td>{emergency.location}</td>
         <td>{emergency.message}</td>

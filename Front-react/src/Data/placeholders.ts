@@ -8,7 +8,7 @@ export const user = {
 export const emergencies = [
   {
     id: 1,
-    tipo: "alert 1",
+    type: "alert 1",
     lat: 37.773972,
     lon: -122.431297,
     location: "San Francisco",
@@ -18,7 +18,7 @@ export const emergencies = [
   },
   {
     id: 2,
-    tipo: "alert 2",
+    type: "alert 2",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -28,7 +28,7 @@ export const emergencies = [
   },
   {
     id: 3,
-    tipo: "alert 3",
+    type: "alert 3",
     lat: 47.834921,
     lon: 12.039655,
     location: "Kolbermoor",
@@ -38,7 +38,7 @@ export const emergencies = [
   },
   {
     id: 4,
-    tipo: "alert 4",
+    type: "alert 4",
     lat: 47.848162,
     lon: 11.941898,
     location: "Bruckmühl",
@@ -48,7 +48,7 @@ export const emergencies = [
   },
   {
     id: 5,
-    tipo: "alert 5",
+    type: "alert 5",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -58,7 +58,7 @@ export const emergencies = [
   },
   {
     id: 6,
-    tipo: "alert 6",
+    type: "alert 6",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -68,7 +68,7 @@ export const emergencies = [
   },
   {
     id: 7,
-    tipo: "alert 7",
+    type: "alert 7",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -78,7 +78,7 @@ export const emergencies = [
   },
   {
     id: 8,
-    tipo: "alert 8",
+    type: "alert 8",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -88,7 +88,7 @@ export const emergencies = [
   },
   {
     id: 9,
-    tipo: "alert 9",
+    type: "alert 9",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -98,7 +98,7 @@ export const emergencies = [
   },
   {
     id: 10,
-    tipo: "alert 10",
+    type: "alert 10",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -108,7 +108,7 @@ export const emergencies = [
   },
   {
     id: 11,
-    tipo: "alert 11",
+    type: "alert 11",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",
@@ -118,7 +118,7 @@ export const emergencies = [
   },
   {
     id: 12,
-    tipo: "alert 12",
+    type: "alert 12",
     lat: 11.593500276876847,
     lon: 48.144263188351324,
     location: "Munich",

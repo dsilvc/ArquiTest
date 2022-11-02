@@ -48,10 +48,12 @@ export const secureDelete = ({ url, token }: SecureGet) => {
   return axios.delete(url, config).then((res) => res);
 };
 
-export const API_URL = "http://54.204.67.161:3333/";
-export const REACT_APP_GOOGLE_MAPS_API_KEY =
-  "AIzaSyDMOVNVu3i4csE1RDL2qExLF1cliNwZxZI";
-export const EMERGENCIES_API = "emergencies/index";
+export const API = "https://arquiemergencias.me/";
+export const INSTANCE = "http://44.193.125.122:3333/";
+export const API_URL =
+  "https://q9fjauswsg.execute-api.us-east-1.amazonaws.com/";
+export const EMERGENCIES_API = "emergencies";
 export const SIGN_UP_API = "signup";
 export const LOGIN_API = "login";
 export const LOGOUT_API = "logout";
+export const WORKERDATA = "workerdata";

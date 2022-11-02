@@ -13,14 +13,12 @@ export default function Emergencies() {
           Debes iniciar sesión para ver las emergencias
         </div>
       )}
-      {user && (
-        <div>
-          <PaginatedItems
-            itemsPerPage={ITEMS_PER_PAGE}
-            emergencies={emergencies}
-          ></PaginatedItems>
-        </div>
-      )}
+      <div>
+        <PaginatedItems
+          itemsPerPage={ITEMS_PER_PAGE}
+          emergencies={emergencies}
+        ></PaginatedItems>
+      </div>
     </>
   );
 }
