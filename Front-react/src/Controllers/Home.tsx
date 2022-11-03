@@ -1,7 +1,7 @@
 export default function Emergencies() {
   return (
     <div>
-      <div>Hello!</div>
+      <div>Front cambiado por CD</div>
     </div>
   );
 }
